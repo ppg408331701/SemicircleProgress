@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularProgressar">
+        <attr name="circularSize" format="dimension" />
+        <attr name="circularbackgroundLineColor" format="color" />
+        <attr name="circularfrontLineColor" format="color" />
+        <attr name="circularlineSize" format="dimension" />
+        <attr name="circularLeftTextSize" format="dimension" />
+        <attr name="circularLeftTextColor" format="color" />
+        <attr name="circularRightTextSize" format="dimension" />
+        <attr name="circularRightTextColor" format="color" />
+        <attr name="circularcentreBitmap" format="reference" />
+        <attr name="circularshowBitmap" format="boolean" />
+        <attr name="circularLeftText" format="string" />
+        <attr name="circularRightText" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SemicircleProgressView">
+        <attr name="semicircleSize" format="dimension" />
+        <attr name="semicirclebackgroundLineColor" format="color" />
+        <attr name="semicirclefrontLineColor" format="color" />
+        <attr name="semicircletitleColor" format="color" />
+        <attr name="semicirclesubtitleColor" format="color" />
+        <attr name="semicirclelineSize" format="dimension" />
+        <attr name="semicircletitleSize" format="dimension" />
+        <attr name="semicirclesubtitleSize" format="dimension" />
+        <attr name="semicircletitleText" format="string" />
+        <attr name="semicirclesubtitleText" format="string" />
+    </declare-styleable>
+</resources>

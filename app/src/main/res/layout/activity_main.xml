@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ppg.simple.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <simple.ppg.com.ppgsemicircle.Views.SemicircleProgressView
+            android:id="@+id/semicircleProgressView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:semicircleSize="140dp"
+            app:semicirclebackgroundLineColor="@color/colorPrimary"
+            app:semicirclefrontLineColor="@color/colorAccent"
+            app:semicirclelineSize="3dp"
+            app:semicirclesubtitleColor="@color/colorPrimary"
+            app:semicirclesubtitleSize="15sp"
+            app:semicirclesubtitleText="integral"
+            app:semicircletitleColor="@color/colorAccent"
+            app:semicircletitleSize="20sp"
+            app:semicircletitleText="积分" />
+
+        <simple.ppg.com.ppgsemicircle.Views.CircularProgressar
+            android:id="@+id/sesame_view"
+            android:layout_width="270dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:circularLeftText="50%"
+            app:circularLeftTextColor="@color/colorPrimary"
+            app:circularLeftTextSize="14sp"
+            app:circularRightText="50/100"
+            app:circularRightTextColor="@color/colorPrimary"
+            app:circularRightTextSize="14sp"
+            app:circularSize="120dp"
+            app:circularbackgroundLineColor="@color/colorPrimary"
+            app:circularcentreBitmap="@mipmap/icon_1"
+            app:circularfrontLineColor="@color/colorAccent"
+            app:circularlineSize="3dp"
+            app:circularshowBitmap="true" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/navigation" />
+
+</LinearLayout>
