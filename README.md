@@ -2,7 +2,7 @@
 两个自定义圆形和弧形进度条
 ===
 
-![image](https://github.com/ppg408331701/SemicircleProgress/blob/master/img/img2.gif)  
+![image](https://github.com/ppg408331701/SemicircleProgress/blob/master/img/img3.gif)  
 
 
-###根据公司的项目修改只有开源而来,gif图过段时间再加入  ###
+###第一个SemicircleProgress可以对中间和下面的字自定义, 第二个CircularProgressar可以对文字部分定义 ,与详细需要请直接拖到本地自己修改###
