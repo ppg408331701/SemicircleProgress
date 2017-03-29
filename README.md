@@ -11,12 +11,12 @@
 对于Android Studio的用户，可以选择添加:
 
 ```java
-		allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+	...
+	maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 ```java
@@ -155,6 +155,12 @@
 ```
 
 ```java
+	 semicircleProgressView = (SemicircleProgressView) findViewById(R.id.semicircleProgressView);
+        semicircleProgressView.setSesameValues(10, 50);
+```
+
+
+```java
 	 <simple.ppg.com.ppgsemicircle.Views.CircularProgressar
             android:id="@+id/sesame_view"
             android:layout_width="270dp"
@@ -174,3 +180,17 @@
             app:circularlineSize="3dp"
             app:circularshowBitmap="true" />
 ```
+```java
+	sesame_view = (CircularProgressar) findViewById(R.id.sesame_view);
+        sesame_view.setSesameValues(50, 100);//设定进度
+        sesame_view.setDuration(5000);//设定波浪从最小到最大的时间
+        sesame_view.setStyle(Paint.Style.FILL);//设置画笔风格
+        sesame_view.setColor(ContextCompat.getColor(this, R.color.colorAccent));//设置波浪颜色
+        sesame_view.setInterpolator(new LinearOutSlowInInterpolator());//设置插值器
+        sesame_view.start();//开始
+       // sesame_view.stop();//缓慢停止
+       // sesame_view.stopImmediately();//立刻停止
+```
+
+
+
