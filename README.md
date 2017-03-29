@@ -8,6 +8,21 @@
 ### 第一个SemicircleProgress可以对中间和下面的字自定义
 ### 第二个CircularProgressar可以对文字部分定义,对图片自定义,显示或隐藏,与详细需要请直接拖到本地自己修改
 
+对于Android Studio的用户，可以选择添加:
+
+```java
+		allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```java
+	 compile 'com.github.ppg408331701:SemicircleProgress:v0.5.0'
+```
+
 ### SemicircleProgress
 <table>
   <tdead>
